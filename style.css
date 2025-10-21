@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #e7f0eb;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.scoreboard {
+  background-color: #1b244a;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 400px;
+  padding: 30px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.team {
+  text-align: center;
+}
+
+.team-title {
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+}
+
+.score-display {
+  background-color: black;
+  color: red;
+  font-family: 'Digital-7 Mono', monospace;
+  font-size: 3.5rem;
+  width: 90px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 15px auto;
+  border-radius: 4px;
+  box-shadow: inset 0 0 5px #222;
+}
+
+.btn-group {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.score-btn {
+  background-color: #1b244a;
+  color: white;
+  border: 2px solid #9ca3af;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.score-btn:hover {
+  background-color: #273260;
+  border-color: #fff;
+}
+
+#reset {
+	background-color: #1b244a;
+	color: white;
+	padding: 10px;
+	border: none;
+	border-radius: 0 8px 8px 0;
+}
